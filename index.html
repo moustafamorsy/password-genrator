@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<main>
+    <section>
+        <h1>Generate a <span> random password</span></h1>
+        <p class="slogan">Never use an insecure password again.</p>
+        <div class="data-input">
+            <p class="msg">the password range is between 15 and 127</p>
+            <label for="pickNumber"> Password range</label><br>
+            <input autocomplete="off" class="pickNumber" type="text" name="" id=""><br>
+            <input autocomplete="off" class="symbols" type="checkbox">
+            <label for="symbols"> Symbols</label><br>
+            <input autocomplete="off" class="numbers" type="checkbox">
+            <label for="Numbers"> Numbers</label><br>
+         </div>
+        <button class="Generate">Generate passwords</button>
+    </section>
+    <hr>
+    <div class="btn-content">
+    <div>
+        <p class="password" tabindex="-1"></p>
+        <button class="copybtn">copy</button>
+    </div>
+    <div>
+        <p class="password" tabindex="-1"></p>
+        <button class="copybtn">copy</button>
+    </div>
+</div>
+</main>
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

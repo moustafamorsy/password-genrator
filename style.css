@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 550px;
+  height: 700px;
+  background: #1f2937;
+  padding: 0 50px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  width: 360px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  font-family: "Karla", sans-serif;
+}
+
+span {
+  color: #55f991;
+}
+
+.slogan {
+  color: #d5d4d8;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+section {
+  padding: 30px 0;
+}
+
+hr {
+  color: #2f3e53;
+}
+
+.Generate {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: #10b981;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 51px;
+}
+
+
+.password {
+  background: #273549;
+  width: 175px;
+  padding: 15px;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ overflow-wrap: break-word;
+  border-radius: 5px;
+  color: #55f991;
+ 
+
+}
+
+.password:focus{
+    border : 0.1rem solid #10b981;
+    color: gray;
+
+}
+
+
+  button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: #10b981;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top:5px;
+  }
+  .btn-content{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   margin-top: 25px;
+  }
+
+  .copybtn{
+    margin-top: 10px;
+  }
+  .data-input{
+margin-top: 10px;
+color: white;
+  }
+
+  .symbols{
+    margin: 10px 0;
+  }
+
+  .msg{
+    visibility: hidden;
+    color:red;
+  }
+
+  .show-msg{
+    visibility: visible;
+    color:red;
+    font-size: 14px;
+  }
+  .pickNumber{
+    text-indent: 5px;
+  }
